@@ -35,7 +35,7 @@ Le champ ```time``` contient l'heure à laquelle la distance a été calculée e
 ### Boisson bu
 
 ```json
-{ "source": "mobile", "capteur": "boisson", "timestamp":1293384382", "type":"cafe|the|coca|redbull|eau|soda|biere|autre" }
+{ "source": "mobile", "capteur": "boisson", "timestamp":1293384382, "type":"cafe|the|coca|redbull|eau|soda|biere|autre" }
 
 ```
 Le champ ```timestamp``` contient l'heure à laquelle la boisson a été bu et ```type``` la boisson correspondante.
