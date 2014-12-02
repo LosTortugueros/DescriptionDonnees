@@ -31,3 +31,18 @@ Le tableau ```clicks``` contient le timestamp à laquelle des clicks ont été f
 ```
 
 Le champ ```time``` contient l'heure à laquelle la distance a été calculée et ```distance``` la distance correspondante en mètres.
+
+### Boisson bu
+
+```json
+{ "source": "mobile", "capteur": "boisson", "timestamp":1293384382", "type":"cafe|the|coca|redbull|eau|soda|biere|autre" }
+
+```
+Le champ ```timestamp``` contient l'heure à laquelle la boisson a été bu et ```type``` la boisson correspondante.
+
+### Nourriture mangé
+
+```json
+{ "source": "mobile", "capteur": "nourriture", "timestamp":1293384382, "type":"pizza|pfour|crepe|inconnue" }
+```
+Le champ ```timestamp``` contient l'heure à laquelle la nourriture a été ingurgité et ```type``` la nourriture correspondante.
