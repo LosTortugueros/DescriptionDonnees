@@ -1,4 +1,4 @@
-# DescriptionDonnees
+# Description des données loggés
 
 Format global : 
  * données disponibles à cette adresse : http://etud.insa-toulouse.fr/~livet/{username}.json
@@ -32,6 +32,7 @@ Le tableau ```clicks``` contient le timestamp à laquelle des clicks ont été f
 
 Le champ ```time``` contient l'heure à laquelle la distance a été calculée et ```distance``` la distance correspondante en mètres.
 
+## Programme Android
 ### Boisson bu
 
 ```json
