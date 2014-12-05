@@ -32,6 +32,21 @@ Le tableau ```clicks``` contient le timestamp à laquelle des clicks ont été f
 
 Le champ ```time``` contient l'heure à laquelle la distance a été calculée et ```distance``` la distance correspondante en mètres.
 
+### Ram libre sur la machine
+
+```json
+{"source":"javalog","ram":1007296512,"time":1417715359}
+```
+Le champ ```time``` contient l'heure à laquelle la mesure a été prisé, ```ram``` la RAM disponible à ce moment là sur la machine.
+
+### Musique ''next'' sur le raspberry
+
+```json
+{u'source': u'javalog', u'next': [{u'timestamp': u'1417743882', u'name': u'The Birds & the Bees', u'artist': u'The 2 Bears'}]}
+```
+
+Permet de logger lorsqu'une musique a été passé (sur le jukebox de l'équipe). ```next``` est un tableau contenant le ```timestamp``` auquel le next a été fait et ```name``` et ```artist``` la musique nexté.
+
 ## Programme Android
 ### Boisson bu
 
