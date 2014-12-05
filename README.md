@@ -42,7 +42,7 @@ Le champ ```time``` contient l'heure à laquelle la mesure a été prisé, ```ra
 ### Musique ''next'' sur le raspberry
 
 ```json
-{'source': 'javalog', 'next': [{'timestamp': '1417743882', 'name': 'The Birds & the Bees', 'artist': 'The 2 Bears'}]}
+{"source": "javalog", "next": [{"timestamp": "1417743882", "name": "The Birds & the Bees", "artist": "The 2 Bears"}]}
 ```
 
 Permet de logger lorsqu'une musique a été passé (sur le jukebox de l'équipe). ```next``` est un tableau contenant le ```timestamp``` auquel le next a été fait et ```name``` et ```artist``` la musique nexté.
